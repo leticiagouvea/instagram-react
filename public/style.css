@@ -221,7 +221,7 @@ input {
     top: 0;
     right: 0;
 }
-.recomendado {
+.perfil {
     display: flex;
     align-items: center;
     height: 90px;
@@ -229,10 +229,10 @@ input {
     font-weight: 300;
     color: #8E8E8E;
 }
-.recomendado p {
+.perfil p {
     margin: 6px 0px 0px 10px;
 }
-.recomendado img {
+.perfil img {
     width: 56px;
     height: 56px;
     object-fit: cover;
@@ -278,7 +278,7 @@ input {
     height: 32px;
     border-radius: 16px;
 }
-.perfil {
+.recomendado {
     text-align: left;
     margin-left: 10px;
 }

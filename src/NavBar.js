@@ -3,7 +3,7 @@ import React from "react";
 export default function NavBar() {
     return (
         <div>
-            <div class={"navbar"}>
+            <div class="navbar">
                 <div class="topo">
                     <div class="topo-logo">
                         <ion-icon name="logo-instagram"></ion-icon>

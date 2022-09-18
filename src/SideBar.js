@@ -5,6 +5,12 @@ export default function SideBar() {
     return (
         <div class="sidebar">
             <Usuario />
+            
+            <div class="sugestoes">
+                <p>Sugestões para você</p>
+                <p>Ver tudo</p>
+            </div>
+
             <Sugestoes />
 
             <p class="infos">

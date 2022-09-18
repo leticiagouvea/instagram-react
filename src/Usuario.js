@@ -1,14 +1,29 @@
-export default function Usuario() {
+function Perfil(props) {
     return (
-        <div class="recomendado">
-            <img src="./imgs/catanacomics 1.png"/>
-            <div class="user-recomendado">
-                <p><strong>catanacomics</strong></p>
+        <div class="perfil">
+            <img src={props.img} alt=""/>
+            <div class="user-perfil">
+                <p><strong>{props.user}</strong></p>
                 <div class="editar-user">
-                    <p>Catana</p>
+                    <p>{props.name}</p>
                     <ion-icon class="icon-editar" name="pencil-outline"></ion-icon>
                 </div>
             </div>
+        </div>
+    )
+}
+
+export default function Usuario() {
+
+    const usuario = [
+        {img: "./imgs/catanacomics 1.png", user: "catanacomics", name: "Catana"}
+    ]
+
+    return (
+        <div>
+            {usuario.map((i) => (
+                <Perfil img={i.img} user={i.user} name={i.name}/>
+            ))}
         </div>
     )
 }
