@@ -215,6 +215,10 @@ input {
     margin: 10px;
 }
 
+.red {
+    color: red;
+}
+
 .sidebar {
     width: 293px;
     position: absolute;
@@ -237,17 +241,25 @@ input {
     height: 56px;
     object-fit: cover;
     border-radius: 50px;
-    cursor: pointer;
 }
 
+.user-perfil {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
 .editar-user {
     display: flex;
+    width: auto;
     height: 20px;
-    width: 100px;
+}
+.nome-perfil {
+    width: auto;
+    margin-right: 10px !important;
 }
 .icon-editar {
     font-size: 18px;
-    margin: 3px 0px 0px 5px;
+    margin-top: 3px;
     color: #8E8E8E;
 }
 
@@ -313,7 +325,6 @@ input {
 }
 
 @media (max-width:935px) {
-
     .sidebar {
         display: none;
     }
@@ -324,7 +335,6 @@ input {
 }
 
 @media (max-width:614px) {
-
     .navbar, .topo,
     .stories ion-icon {
         display: none;
