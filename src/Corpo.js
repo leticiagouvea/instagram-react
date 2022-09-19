@@ -9,5 +9,5 @@ export default function Corpo() {
             <Posts />
             <SideBar />
         </div>
-    )
+    );
 }

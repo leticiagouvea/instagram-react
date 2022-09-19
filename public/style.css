@@ -30,6 +30,7 @@ strong {
     justify-content: center;
     z-index: 2;
 }
+
 .navbar .topo {
     width: 100%;
     height: 100%;
@@ -47,11 +48,13 @@ strong {
     justify-content: space-between;
     margin-left: 25px;
 }
+
 .topo-logo img {
     width: 103px;
     height: 29px;
     margin-top: 5px;
 }
+
 .barrinha {
     width: 1px;
     height: 22px;
@@ -69,11 +72,13 @@ strong {
     font-size: 12px;
     text-align: center;
 }
+
 input {
     outline: none;
     resize: none;
     border: none;
 }
+
 .pesquisar::placeholder {
     color: #979797;
 }
@@ -118,12 +123,14 @@ input {
     height: 85px;
     margin-right: 12px;
 }
+
 .bordaimg {
     width: 66px;
     height: 66px;
     position: absolute;
     border-radius: 50px;
 }
+
 .storyimg {
     width: 56px;
     height: 56px;
@@ -132,6 +139,7 @@ input {
     left: 5px;
     object-fit: cover;
 }
+
 .user {
     margin-top: 12px;
     width: 66px;
@@ -141,6 +149,7 @@ input {
     color: #262626;
     text-align: center;
 }
+
 .stories ion-icon {
     position: absolute;
     font-size: 30px;
@@ -158,17 +167,20 @@ input {
     border: 1px solid #DBDBDB;
     margin-bottom: 60px;
 }
+
 .post-topo {
     display: flex;
     align-items: center;
     width: 614px;
     height: 60px;
 }
+
 .userfoto {
     width: 32px;
     height: 32px;
     margin: 20px;
 }
+
 .usernome {
     width: 110px;
     font-size: 14px;
@@ -177,14 +189,17 @@ input {
     letter-spacing: 0em;
     text-align: left;
 }
+
 .post-topo ion-icon {
     color: #262626;
     margin-left: 390px;
 }
+
 .imgpost {
     width: 612px;
     height: 612px;
 }
+
 .post-interacoes {
     display: flex;
     align-items: center;
@@ -192,9 +207,11 @@ input {
     height: 30px;
     padding-top: 5px;
 }
+
 .post-interacoes ion-icon {
     margin-left: 10px;
 }
+
 .post-interacoes :nth-child(4) {
     margin-left: 480px;
 }
@@ -209,6 +226,7 @@ input {
     text-align: left;
     font-weight: 300;
 }
+
 .curtidas img {
     width: 20px;
     height: 20px;
@@ -225,6 +243,7 @@ input {
     top: 0;
     right: 0;
 }
+
 .perfil {
     display: flex;
     align-items: center;
@@ -233,14 +252,17 @@ input {
     font-weight: 300;
     color: #8E8E8E;
 }
+
 .perfil p {
     margin: 6px 0px 0px 10px;
 }
+
 .perfil img {
     width: 56px;
     height: 56px;
     object-fit: cover;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .user-perfil {
@@ -248,15 +270,18 @@ input {
     display: flex;
     flex-direction: column;
 }
+
 .editar-user {
     display: flex;
     width: auto;
     height: 20px;
 }
+
 .nome-perfil {
     width: auto;
     margin-right: 10px !important;
 }
+
 .icon-editar {
     font-size: 18px;
     margin-top: 3px;
@@ -269,10 +294,12 @@ input {
     font-size: 12px;
     font-weight: 500;
 }
+
 .sugestoes :nth-child(1) {
     text-align: left;
     color: #8E8E8E;
 }
+
 .sugestoes :nth-child(2) {
     text-align: right;
     color: #262626;
@@ -285,21 +312,25 @@ input {
     height: 35px;
     margin-top: 15px;
 }
+
 .sugestao img {
     width: 32px;
     height: 32px;
     border-radius: 16px;
 }
+
 .recomendado {
     text-align: left;
     margin-left: 10px;
 }
+
 .usuario {
     font-size: 14px;
     font-weight: 500;
     color: #262626;
     width: 180px;
 }
+
 .infouser {
     font-size: 12px;
     font-weight: 400;
@@ -307,6 +338,7 @@ input {
     margin-top: 4px;
     width: 180px;
 }
+
 .follow {
     font-size: 12px;
     font-weight: 500;
@@ -314,6 +346,7 @@ input {
     color: #139EF2;
     margin-left: 35px;
 }
+
 .infos {
     font-size: 11px;
     font-weight: 400;

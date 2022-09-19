@@ -79,7 +79,7 @@ export default function Posts() {
             userLike: "adorableanimals",
             numberLike: 50.130
         }
-    ]
+    ];
 
     return (
         <div>
@@ -87,5 +87,5 @@ export default function Posts() {
                 <Post imgUser={i.imgUser} userName={i.userName} imgPost={i.imgPost} imgLike={i.imgLike} userLike={i.userLike} numberLike={i.numberLike}/>
             ))}
         </div>
-    )
+    );
 }
