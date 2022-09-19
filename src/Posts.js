@@ -51,7 +51,7 @@ function Post(props) {
             <div class="curtidas">
                 <img src={props.imgLike} alt=""/>
                 <div class="numero-curtidas">
-                    Curtido por <strong>{props.userLike}</strong> e <strong>outras {props.numberLike.toFixed(2) + curtida} pessoas</strong>
+                    Curtido por <strong>{props.userLike}</strong> e <strong>outras {props.numberLike + curtida} pessoas</strong>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@ export default function Posts() {
             imgPost: "./imgs/gato-telefone 1.png",
             imgLike: "./imgs/respondeai 1.png",
             userLike: "respondeai",
-            numberLike: 99.150
+            numberLike: 453
         }, 
         {
             imgUser: "./imgs/barked 1.png",
@@ -74,7 +74,7 @@ export default function Posts() {
             imgPost: "./imgs/dog 1.png",
             imgLike: "./imgs/adorableanimals 1.png",
             userLike: "adorableanimals",
-            numberLike: 102.950
+            numberLike: 890
         },
         {
             imgUser: "./imgs/nathanwpylestrangeplanet 1.png",
@@ -82,7 +82,7 @@ export default function Posts() {
             imgPost: "./imgs/cats-nathanwpyle.jpg",
             imgLike: "./imgs/adorableanimals 1.png",
             userLike: "adorableanimals",
-            numberLike: 50.130
+            numberLike: 504
         }
     ]
 
