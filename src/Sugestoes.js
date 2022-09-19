@@ -8,7 +8,7 @@ function Sugestao(props) {
             </div>
             <div class="follow">Seguir</div>
         </div>
-    );
+    )
 }
 
 export default function Sugestoes() {
@@ -19,13 +19,13 @@ export default function Sugestoes() {
         {img: "./imgs/razoesparaacreditar 1.png", user: "razoesparaacreditar"},
         {img: "./imgs/adorableanimals 1.png", user: "adorableanimals"},
         {img: "./imgs/smallcutecats 1.png", user: "smallcutecats"}
-    ];
+    ]
 
     return (
         <div>
             {sugestoes.map((i) => (
                 <Sugestao img={i.img} user={i.user}/>
-            ))};
+            ))}
         </div>
-    );
+    )
 }

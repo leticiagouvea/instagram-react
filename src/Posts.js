@@ -29,17 +29,22 @@ function Post(props) {
     return (
         <div class="post">
             <div class="post-topo">
-                <img class="userfoto" src={props.imgUser} alt=""/>
-                <p class="usernome">{props.userName}</p>
+                <div class="user-post">
+                    <img class="user-foto" src={props.imgUser} alt=""/>
+                    <p class="user-nome">{props.userName}</p>
+                </div>
                 <ion-icon name="ellipsis-horizontal"></ion-icon>
             </div>
 
             <img class="imgpost" src={props.imgPost} alt=""/>
 
             <div class="post-interacoes">
-                <ion-icon class={cor} name={estiloIcone} onClick={curtirPost}></ion-icon>
-                <ion-icon name="chatbubble-outline"></ion-icon>
-                <ion-icon name="paper-plane-outline"></ion-icon>
+                <div>
+                    <ion-icon class={cor} name={estiloIcone} onClick={curtirPost}></ion-icon>
+                    <ion-icon name="chatbubble-outline"></ion-icon>
+                    <ion-icon name="paper-plane-outline"></ion-icon>
+                </div>
+
                 <ion-icon name={iconeSalvar} onClick={salvarPost}></ion-icon>
             </div>
 
@@ -79,7 +84,7 @@ export default function Posts() {
             userLike: "adorableanimals",
             numberLike: 50.130
         }
-    ];
+    ]
 
     return (
         <div>
@@ -87,5 +92,5 @@ export default function Posts() {
                 <Post imgUser={i.imgUser} userName={i.userName} imgPost={i.imgPost} imgLike={i.imgLike} userLike={i.userLike} numberLike={i.numberLike}/>
             ))}
         </div>
-    );
+    )
 }

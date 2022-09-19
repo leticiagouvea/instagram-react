@@ -20,5 +20,5 @@ export default function SideBar() {
             </p>
             <p class="infos">© 2021 INSTAGRAM DO FACEBOOK</p>
         </div>
-    );
+    )
 }

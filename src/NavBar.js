@@ -6,7 +6,7 @@ export default function NavBar() {
                     <div class="topo-logo">
                         <ion-icon name="logo-instagram"></ion-icon>
                         <div class="barrinha"></div>
-                        <img src="./imgs/logo.png" />
+                        <img src="./imgs/logo.png" alt=""/>
                     </div>
 
                     <input class="pesquisar" placeholder="Pesquisar"></input>
@@ -22,7 +22,7 @@ export default function NavBar() {
 
             <div class="top-mobile">
                 <ion-icon name="logo-instagram"></ion-icon>
-                <img src="./imgs/logo.png"/>
+                <img src="./imgs/logo.png" alt=""/>
                 <ion-icon name="paper-plane-outline"></ion-icon>
             </div>
 

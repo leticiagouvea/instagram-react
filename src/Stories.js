@@ -5,7 +5,7 @@ function Story(props) {
             <img class="storyimg" src={props.img} alt=""/>
             <p class="user">{props.user}</p>
         </div>
-    );
+    )
 }
 
 export default function Stories() {
@@ -51,14 +51,14 @@ export default function Stories() {
             img: "./imgs/memeriagourmet 1.png",
             user: "memeria"
         }
-    ];
+    ]
 
     return (
         <div class="stories">
             {stories.map((i) => (
             <Story border={i.border} img={i.img} user={i.user}/>
-            ))};
+            ))}
             <ion-icon name="chevron-forward-circle"></ion-icon>
         </div>
-    );
+    )
 }

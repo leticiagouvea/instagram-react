@@ -5,9 +5,11 @@ import SideBar from "./SideBar";
 export default function Corpo() {
     return (
         <div class="conteudo">
-            <Stories />
-            <Posts />
+            <div class="esquerda">
+                <Stories />
+                <Posts />
+            </div>
             <SideBar />
         </div>
-    );
+    )
 }

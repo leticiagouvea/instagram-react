@@ -101,11 +101,16 @@ input {
     height: auto;
     margin: 0 auto;
     margin-top: 88px;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerda {
+    width: 100%;
+    max-width: 614px;
 }
 
 .stories {
-    width: 614px;
     height: 118px;
     border-radius: 3px;
     border: 1px solid #DBDBDB;
@@ -122,6 +127,7 @@ input {
     width: 66px;
     height: 85px;
     margin-right: 12px;
+    cursor: pointer;
 }
 
 .bordaimg {
@@ -160,28 +166,33 @@ input {
 }
 
 .post {
-    width: 614px;
     height: 749px;
     background-color:#FFFFFF;
-    margin-top: 20px;
+    margin: 20px 0px 60px 0px;
     border: 1px solid #DBDBDB;
-    margin-bottom: 60px;
+    border-radius: 3px;
 }
 
 .post-topo {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: 614px;
     height: 60px;
+    padding: 0px 20px;
 }
 
-.userfoto {
+.user-post {
+    display: flex;
+    align-items: center;
+}
+
+.user-foto {
     width: 32px;
     height: 32px;
-    margin: 20px;
+    margin-right: 10px;
 }
 
-.usernome {
+.user-nome {
     width: 110px;
     font-size: 14px;
     font-weight: 500;
@@ -192,37 +203,33 @@ input {
 
 .post-topo ion-icon {
     color: #262626;
-    margin-left: 390px;
 }
 
 .imgpost {
-    width: 612px;
+    width: 100%;
     height: 612px;
+    object-fit: cover;
 }
 
 .post-interacoes {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: 614px;
-    height: 30px;
-    padding-top: 5px;
+    height: 35px;
+    padding: 6px 0px 0px 10px;
 }
-
+.post-interacoes:nth-child(1) {
+    display: flex;
+}
 .post-interacoes ion-icon {
-    margin-left: 10px;
-}
-
-.post-interacoes :nth-child(4) {
-    margin-left: 480px;
+    margin-right: 10px;
 }
 
 .curtidas {
-    width: 612px;
-    height: 40px;
+    height: 30px;
     display: flex;
     align-items: center;
     font-size: 14px;
-    font-weight: 100;
     text-align: left;
     font-weight: 300;
 }
@@ -239,9 +246,6 @@ input {
 
 .sidebar {
     width: 293px;
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 
 .perfil {
@@ -384,11 +388,15 @@ input {
     .post {
         border-left: none;
         border-right: none;
+        border-radius: 0;
         width: 100%;
+        margin-top: 0px;
     }
 
     .stories {
-        background-color: #fafafa;
+        background-color: transparent;
+        border-radius: 0;
+        border: none;
         width: 100%;
     }
 
